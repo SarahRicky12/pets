@@ -1,21 +1,10 @@
 package edu.guilford;
 
-public class Horse {
-    
-    private String name;
-    private String breed;
-    private int age;
-    private double weight;
-    private String color;
-
+public class Horse extends Pet{
 
 //constructor
 public Horse(String name, String breed, int age, double weight, String color) {
-    this.name = name;
-    this.breed = breed;
-    this.age = age;
-    this.weight = weight;
-    this.color = color;
+    super(name, breed, age, weight, color);
 }
 
 //getter for name

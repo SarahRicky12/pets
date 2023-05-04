@@ -3,11 +3,11 @@ package edu.guilford;
 public abstract class Pet {
     
 //attributes that belong to dogs, cats, and horses
-private String name;
-private String breed;
-private int age;
-private double weight;
-private String color;
+protected String name;
+protected String breed;
+protected int age;
+protected double weight;
+protected String color;
 
 //constructor that sets values for the attributes
 public Pet(String name, String breed, int age, double weight, String color) {

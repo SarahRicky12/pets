@@ -1,20 +1,10 @@
 package edu.guilford;
 
-public class Dog {
+public class Dog extends Pet {
 
-    private String name;
-    private String breed;
-    private int age;
-    private double weight;
-    private String color;
-
-//constructor
+// super constructor that uses the attributes from the Pet class
 public Dog(String name, String breed, int age, double weight, String color) {
-    this.name = name;
-    this.breed = breed;
-    this.age = age;
-    this.weight = weight;
-    this.color = color;
+    super(name, breed, age, weight, color);
 }
 
 //use the speak method to print out the sound the dog makes

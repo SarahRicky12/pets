@@ -1,20 +1,10 @@
 package edu.guilford;
 
-public class Cat {
-    
-    private String name;
-    private String breed;
-    private int age;
-    private double weight;
-    private String color;
+public class Cat extends Pet {
 
 //constructor
 public Cat(String name, String breed, int age, double weight, String color) {
-    this.name = name;
-    this.breed = breed;
-    this.age = age;
-    this.weight = weight;
-    this.color = color;
+    super(name, breed, age, weight, color);
 }
 
 //getter for name
